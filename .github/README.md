@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-imagebuilder`](https://www.npmjs.com/package/@aws-sdk/client-imagebuilder/v/3.468.0).
+[`@aws-sdk/client-imagebuilder`](https://www.npmjs.com/package/@aws-sdk/client-imagebuilder/v/3.470.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.468.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.470.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-iCqnUYr3xHg/1bRFbBVNpnAYB/1nzfS9XaiH0J9ry74D/0UiPQrEzlwmSrCBFS7Z
+sha384-8MZM/BC5Az10104JhxD/LpLcukvA4iXXtlkm0NqOhPQE6TweKG9qe0FjF68uxfhF
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-imagebuilder": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.468.0/index.min.mjs"
+            "@aws-sdk/client-imagebuilder": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.470.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.468.0/index.min.mjs": "sha384-iCqnUYr3xHg/1bRFbBVNpnAYB/1nzfS9XaiH0J9ry74D/0UiPQrEzlwmSrCBFS7Z"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.470.0/index.min.mjs": "sha384-8MZM/BC5Az10104JhxD/LpLcukvA4iXXtlkm0NqOhPQE6TweKG9qe0FjF68uxfhF"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-imagebuilder": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.468.0/index.min.mjs"
+                        "@aws-sdk/client-imagebuilder": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.470.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.468.0/index.min.mjs": "sha384-iCqnUYr3xHg/1bRFbBVNpnAYB/1nzfS9XaiH0J9ry74D/0UiPQrEzlwmSrCBFS7Z"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.470.0/index.min.mjs": "sha384-8MZM/BC5Az10104JhxD/LpLcukvA4iXXtlkm0NqOhPQE6TweKG9qe0FjF68uxfhF"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.468.0`)
+* Always pin to a specific version (`@3.470.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-imagebuilder/blob/refs/tags/3.468.0/LICENSE
+https://github.com/cloud-sdk-builds/client-imagebuilder/blob/refs/tags/3.470.0/LICENSE
 ```
 
 ---
