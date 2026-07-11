@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-imagebuilder`](https://www.npmjs.com/package/@aws-sdk/client-imagebuilder/v/3.1084.0).
+[`@aws-sdk/client-imagebuilder`](https://www.npmjs.com/package/@aws-sdk/client-imagebuilder/v/3.1085.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-imagebuilder - [https://cloud-sdk-builds.github.io/?sdk=client-imagebuilder](https://cloud-sdk-builds.github.io/?sdk=client-imagebuilder)
-- @aws-sdk/client-imagebuilder v3.1084.0 - [https://cloud-sdk-builds.github.io/?sdk=client-imagebuilder&version=3.1084.0](https://cloud-sdk-builds.github.io/?sdk=client-imagebuilder&version=3.1084.0)
+- @aws-sdk/client-imagebuilder v3.1085.0 - [https://cloud-sdk-builds.github.io/?sdk=client-imagebuilder&version=3.1085.0](https://cloud-sdk-builds.github.io/?sdk=client-imagebuilder&version=3.1085.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.1084.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.1085.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-UN4hz8zPUpKCs44QReBKZH6XB14TXTmZSx0TcfVDQC1DAF6bXie1JAkqpc0x9+7N
+sha384-QjeWMgLIKP63+d2zwPOIpMnQ3z28kkGDxhPUuNQCwWPCI9Uy8opIH09dxpxq0Sr4
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-imagebuilder": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.1084.0/index.min.mjs"
+            "@aws-sdk/client-imagebuilder": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.1085.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.1084.0/index.min.mjs": "sha384-UN4hz8zPUpKCs44QReBKZH6XB14TXTmZSx0TcfVDQC1DAF6bXie1JAkqpc0x9+7N"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.1085.0/index.min.mjs": "sha384-QjeWMgLIKP63+d2zwPOIpMnQ3z28kkGDxhPUuNQCwWPCI9Uy8opIH09dxpxq0Sr4"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-imagebuilder": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.1084.0/index.min.mjs"
+                        "@aws-sdk/client-imagebuilder": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.1085.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.1084.0/index.min.mjs": "sha384-UN4hz8zPUpKCs44QReBKZH6XB14TXTmZSx0TcfVDQC1DAF6bXie1JAkqpc0x9+7N"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-imagebuilder@3.1085.0/index.min.mjs": "sha384-QjeWMgLIKP63+d2zwPOIpMnQ3z28kkGDxhPUuNQCwWPCI9Uy8opIH09dxpxq0Sr4"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1084.0`)
+* Always pin to a specific version (`@3.1085.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-imagebuilder/blob/refs/tags/3.1084.0/LICENSE
+https://github.com/cloud-sdk-builds/client-imagebuilder/blob/refs/tags/3.1085.0/LICENSE
 ```
 
 ---
